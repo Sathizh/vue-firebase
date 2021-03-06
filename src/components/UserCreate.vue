@@ -10,7 +10,7 @@
                 <input type="email" v-model="form.email" class="form-control" required/>
             </div>
             <div class="form-group mt-3">
-                <label >Phone</label>
+                <label class="">Phone</label>
                 <input type="tel" v-model="form.phone" class="form-control" required/>
             </div>
             <button type="submit" class="btn btn-success mt-3">Create User</button>
